@@ -1,4 +1,4 @@
-# cadastro_provider
+# CRUD PROVIDER COM FIREBASE
 
 A new Flutter project.
 
