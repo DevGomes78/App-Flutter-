@@ -15,7 +15,7 @@ class UserList extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text('Usuarios'),
+        title: Text('Cadastro de Usuarios'),
         centerTitle: true,
         actions: [
           IconButton(
