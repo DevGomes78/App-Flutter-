@@ -21,6 +21,7 @@ class UsersProvider with ChangeNotifier {
     return _items.values.elementAt(index);
   }
 
+  //funcao cadastro
   Future<void> put(User user) async {
     if (user == null) {
       return;
