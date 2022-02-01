@@ -5,6 +5,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:http/http.dart' as http;
 
 class UsersProvider with ChangeNotifier {
+  //URL do banco de dados Firebase
   final url = Uri.parse('https://shopgomes-764b4-default-rtdb.firebaseio.com/');
   final Map<String, User> _items = {...Dummy_Users};
 
